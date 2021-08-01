@@ -15,82 +15,90 @@
 
 <body class="body" style="margin-top: 6em;">
   <!-- navbar -->
-  <div class="bg-white fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark navbarbg  bg-white offset-sm-1">
-      <a class="navbar-brand" href="#"><i class="fab fa-linkedin fa-lg"
-          style="color: #0a66c2; font-size: 2.4rem"></i></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
-      <form class="form-inline">
-        <input class="form-control searche" type="search" placeholder="Arama Yap" aria-label="Search" />
-      </form>
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav mr-auto ml-4">
-          <li class="nav-item active mr-3">
-            <a class="nav-link" href="#"><i class="fas fa-home fa-lg" style="color: black">
-                <div class="menutext" style="color: black">Ana Sayfa</div>
-              </i>
-            </a>
-          </li>
-          <li class="nav-item active mr-4">
-            <a class="nav-link" href="#"><i class="fas fa-user-friends fa-lg">
-                <div class="menutext">Ağım</div>
-              </i>
-            </a>
-          </li>
-          <li class="nav-item active mr-2">
-            <a class="nav-link" href="#"><i class="fas fa-briefcase fa-lg">
-                <div class="menutext">İş İlanları</div>
-              </i>
-            </a>
-          </li>
-          <li class="nav-item active mr-1">
-            <a class="nav-link" href="#"><i class="fas fa-comment-dots fa-lg">
-                <div class="menutext">Mesajlaşma</div>
-              </i>
-            </a>
-          </li>
-          <li class="nav-item active mr-1">
-            <a class="nav-link" href="#"><i class="fas fa-bell fa-lg">
-                <div class="menutext">Bildirimler</div>
-              </i>
-            </a>
-          </li>
-          <li class="nav-item dropdown mt-1 mr-3 ml-3">
-            <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              <img
-                src="https://media-exp1.licdn.com/dms/image/C4D03AQFpMjVJ_N2wRQ/profile-displayphoto-shrink_100_100/0/1582787654653?e=1616630400&v=beta&t=C1X2NxhcN0R0GmELl1Ew7BeOoyGbwJXCw8c7lHm6XuA"
-                style="
+  <div class="container">
+    <div class="row">
+      <nav class="bg-white fixed-top navbar navbar-expand-lg navbar-light bg-dark navbarbg  bg-white ">
+
+        <div class="col-3 d-flex offset-md-1">
+          <a class=" navbar-brand" href="#"><i class="fab fa-linkedin fa-lg"
+              style="color: #0a66c2; font-size: 2.4rem"></i></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
+          <form class="form-inline">
+            <input class="form-control searche" type="search" placeholder="Arama Yap" aria-label="Search" />
+          </form>
+        </div>
+    
+
+
+        <div class="col-8 offset-md-1 collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto ml-4 text-center">
+            <li class="nav-item active mr-3">
+              <a class="nav-link" href="#"><i class="fas fa-home fa-lg" style="color: black">
+                  <div class="menutext" style="color: black">Ana Sayfa</div>
+                </i>
+              </a>
+            </li>
+            <li class="nav-item active mr-4">
+              <a class="nav-link" href="#"><i class="fas fa-user-friends fa-lg">
+                  <div class="menutext">Ağım</div>
+                </i>
+              </a>
+            </li>
+            <li class="nav-item active mr-2">
+              <a class="nav-link" href="#"><i class="fas fa-briefcase fa-lg">
+                  <div class="menutext">İş İlanları</div>
+                </i>
+              </a>
+            </li>
+            <li class="nav-item active mr-1">
+              <a class="nav-link" href="#"><i class="fas fa-comment-dots fa-lg">
+                  <div class="menutext">Mesajlaşma</div>
+                </i>
+              </a>
+            </li>
+            <li class="nav-item active mr-1">
+              <a class="nav-link" href="#"><i class="fas fa-bell fa-lg">
+                  <div class="menutext">Bildirimler</div>
+                </i>
+              </a>
+            </li>
+            <li class="nav-item dropdown mt-1 mr-3 ml-3">
+              <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <img class="rounded-circle" src="img/profil.jpg" style="
                   width: 25px;
                   height: 25px;
                 " />
-              <div class="menutext">
-                Ben
-              </div>
-            </a>
-          </li>
-          <li class="nav-item active border-left">
-            <a class="nav-link ml-4 mr-2" href="#"><i class="fas fa-th fa-lg">
-                <div class="menutext">İş</div>
-              </i>
-            </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#"><i class="fas fa-chalkboard fa-lg">
-                <div class="menutext">İş İlanı Yayınla</div>
-              </i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+                <div class="menutext">
+                  Ben
+                </div>
+              </a>
+            </li>
+            <li class="nav-item active border-left">
+              <a class="nav-link ml-4 mr-2" href="#"><i class="fas fa-th fa-lg">
+                  <div class="menutext">İş</div>
+                </i>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><i class="fas fa-chalkboard fa-lg">
+                  <div class="menutext">İş İlanı Yayınla</div>
+                </i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+
+      </nav>
+    </div>
   </div>
 
-  <div>
+  <div class="container">
     <div class="row">
       <!-- sol panel -->
-      <div class="">
+      <div class="col-3">
         <!-- sol panel -->
         <div class="card" style="width: 14rem">
           <div class="card-header" style="
@@ -98,7 +106,7 @@
                 height: 53px;
               ">
             <img
-              src="https://media-exp1.licdn.com/dms/image/C4D03AQFpMjVJ_N2wRQ/profile-displayphoto-shrink_100_100/0/1582787654653?e=1616630400&v=beta&t=C1X2NxhcN0R0GmELl1Ew7BeOoyGbwJXCw8c7lHm6XuA"
+              src="img/profil.jpg"
               class="" style="
                   width: 70px;
                   height: 70px;
@@ -106,8 +114,8 @@
           </div>
           <div class="card-body">
             <p class="card-title header">
-              <a href="https://www.linkedin.com/in/cengizcmataraci/" target="_blank" style="color: #212529;">Cengiz
-                Cemal Mataracı</a>
+              <a href="https://www.linkedin.com/in/omer-genc/" target="_blank" style="color: #212529;">Ömer
+                Genç</a>
             </p>
             <div style="
                   margin-bottom: 10px;
@@ -207,7 +215,7 @@
       </div>
 
       <!-- orta panel -->
-      <div class="col-3" style="">
+      <div class="col-5" style="">
         <div class="card">
           <div class="card-body">
             <input type="text" class="form-control content" placeholder="Bir gönderi başlat" />
@@ -400,7 +408,7 @@
       </div>
 
       <!-- sağ panel -->
-      <div class="">
+      <div class="col-3">
         <div class="card" style="width: 19rem">
           <div class="card-header bg-white border-0">
             <span>Akışınıza ekleyin</span><span><i class="fas fa-info-circle float-right"></i></span>
