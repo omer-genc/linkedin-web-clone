@@ -13,9 +13,10 @@ input.searche {
 input.searche::placeholder {
   font-size: 14px;
   color: gray;
-  background-image: url(/bootstraplinkedinclone/assets/search-solid.svg);
+  background-image: url(assets/search-solid.svg);
   background-repeat: no-repeat;
   background-size: 7%;
+  background-position: 40%;
 }
 
 .body {
@@ -23,7 +24,7 @@ input.searche::placeholder {
 }
 
 .menutext {
-  font-size: 13px;
+  font-size: 5px !important;
   font-family: Arial, Helvetica, sans-serif;
   color: gray;
   margin-top: 5px;
