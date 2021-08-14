@@ -1,4 +1,4 @@
-# [Patika.dev](https://app.patika.dev) Bootstrap ödevi 3: [Linkedin web clone](https://omer-genc.github.io/linkedin-web-clone/)
+# Linkedin web clone [Link](https://omer-genc.github.io/linkedin-web-clone/)
 
 Bu ödevde Bootstrap kullanarak bozuk Linkedin sayfası düzeltilmiştir.
 
